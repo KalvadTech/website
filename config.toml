@@ -1,0 +1,232 @@
+baseURL = "https://kalvad.com/"
+languageCode = "en-us"
+title = "Kalvad Dubai - Innovative Tech Agency"
+theme = "kalvad"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+googleAnalytics = "UA-109728016-1"
+enableRobotsTXT = true
+canonifyURLs = true
+
+[params.home]
+description = "Kalvad is your Tech partner in Dubai and Abu Dhabi specialized in Mobile App and Website Development, DevOps, Automation and Strategy"
+
+
+[params.about]
+title = "Hello,"
+subtitle = "We are"
+fancyName = "Kalvad"
+leftText = "We are a worldwide Tech Agency, with our HQ in Dubai, United Arab Emirates. dedicated to solve business problems through cutting edge technology. With our expert team of engineers, we create elegant solutions to help you grow, launch your business and reach your KPIs. We stick with your from the inception of the project to the delivery and give you advice all along as we build your product. We work with amazing startups, SMEs and government entities and promote a transparent and ethical environment where we cooperate to achieve our goals. "
+rightText = "We have mastered a wide range of skills including mobile applications (Android and iOS), websites (CMS, CRM, SPA, PWA), automation(DevOps, Agile) and security. We are regular speakers in tech conferences all over the world (FOSDEM, RMLL, Microsoft UAE, Canadian University of Dubai…) and value the importance of sharing knowledge in the industry. We are also very proud to release, use and contribute to several large open source projects."
+bottomText = "We create experiences that are engineered to rock and built with passion."
+
+
+[params.hero]
+title = "Welcome to "
+fancyName = "Kalvad"
+overlay1 = "Your experts"
+overlay2 = "In"
+changingText = [
+    "Tech It Easy",
+    "Creative Engineers",
+    "Techno Warriors",
+    ]
+scroll = "scroll"
+
+
+[params.whatWeDo]
+title = "What we do"
+subTitle = "We’ve got everything you need to launch and grow your business"
+[[params.whatWeDo.cards]]
+    cardTitle = "MOBILE APPS"
+    x = [
+        "POWERFUL",
+        "CRASH FREE",
+        "APPLICATIONS",
+        ]
+    paragragh = [
+        "Mobile development is more than building an App. At Kalvad, we believe that native mobile development is all about marrying together technology and design.",
+        "Rich user experiences in native applications continues to ring true in our digital world. Guiding principles in mobile development stem from our steady commitment to the User Experience.",
+        "With the look and feel of that mobile application being our starting point, we architect technology solutions that smartly and effectively achieve the goals that our clients and designers have curated together."
+    ]
+    readMoreLink="/contact/"
+    image="/images/services/mobile_applications.jpg"
+[[params.whatWeDo.cards]]
+    cardTitle = "WEBSITES"
+    x = [
+        "AMAZING LANDING PAGES",
+        "SUPER EFFICIENT CMS",
+        "AND A LOT MORE",
+        ]
+    paragragh = [
+        "We think web designs should be beautiful. Beautiful is only as good as a beautifully converting website. Our mission is to co-create a web presence that converts your visitors to loyal and paying customers while giving them reasons to be loyal to your brand.",
+        "Organizing our thoughts in sitemaps and creating wireframes around: Responsive Site Structure, Compelling Content that speaks to your Audience, Architectures that are SEO battle ready and Cohesive designs that tie the whole experience together.",
+    ]
+    readMoreLink="/contact/"
+    image="/images/services/websites.jpg"
+[[params.whatWeDo.cards]]
+    cardTitle = "BLUE TEAM AND SRE"
+    x = [
+        "RELIABILITY",
+        "AND",
+        "SECURITY",
+        ]
+    paragragh = [
+        "We understand you can’t afford any website or application outages. You need to work with a company that provides maximum security and quick systems so that you can focus on providing your product to your customer or employees. We develop infrastructures to remain secure, quick, automated, and with minimal downtime.",
+        "We feel so passionately about security that we implement best practices into all of our products, and we stay up-to-date to prevent malicious attacks.",
+    ]
+    readMoreLink="/contact/"
+    image="/images/services/devops.jpg"
+[[params.whatWeDo.cards]]
+    cardTitle = "AUGMENTED REALITY"
+    x = [
+        "EXPLORE",
+        "A NEW DIMENSION",
+        "FOR YOUR BUSINESS",
+        ]
+    paragragh = [
+        "Integrating Augmented Reality in your mobile app is the way to go for a better engagement of users and generating more revenues. We developed several applications for the education and construction industry working with 3D artists to integrate the most realistic models.",
+        "We truely believe the future is in smart applications with features such as object recognition and that it can be applied to any sector.",
+    ]
+    readMoreLink="/contact/"
+    image="/images/services/augmented_reality.jpg"
+[[params.whatWeDo.cards]]
+    cardTitle = "BUSINESS INTELLIGENCE"
+    x = [
+        "WISE",
+        "DATA-DRIVEN",
+        "DECISION MAKING",
+        ]
+    paragragh = [
+        "We can help you unlock the potential hidden in the data you house and discover what others are missing with unique insights.",
+        "With our expertise in data pipelines, ETL, and visualizations tools (Tableau, Power BI, Qlik, etc) we can create the most accurate and complete data warehouse you need and help you plan your future business strategy"
+    ]
+    readMoreLink="/contact/"
+    image="/images/services/bi.jpg"
+
+
+[params.technologies]
+title = ["TECHNOLOGIES", "WE'VE", "MASTERED"]
+[[params.technologies.cards]]
+    link = "#"
+    imageLink="/images/technologies/angular.png"
+    imageAlt="Angular"
+    title="Angular"
+[[params.technologies.cards]]
+    link = "#"
+    imageLink="/images/technologies/ansible.png"
+    imageAlt="Ansible"
+    title="Ansible"
+[[params.technologies.cards]]
+    link = "#"
+    imageLink="/images/technologies/android.png"
+    imageAlt="Android"
+    title="Android"
+[[params.technologies.cards]]
+    link = "#"
+    imageLink="/images/technologies/aws.jpg"
+    imageAlt="AWS"
+    title="AWS"
+    roundWhite = true
+[[params.technologies.cards]]
+    link = "#"
+    imageLink="/images/technologies/azure.png"
+    imageAlt="Azure"
+    title="Azure"
+    roundWhite = true
+[[params.technologies.cards]]
+    link = "#"
+    imageLink="/images/technologies/elasticsearch.png"
+    imageAlt="ElasticSearch"
+    title="ElasticSearch"
+    roundWhite = true
+[[params.technologies.cards]]
+    link = "#"
+    imageLink="/images/technologies/google_cloud.jpg"
+    imageAlt="Google Cloud"
+    title="Google Cloud"
+    roundWhite = true
+[[params.technologies.cards]]
+    link = "#"
+    imageLink="/images/technologies/ios.png"
+    imageAlt="Apple IOS"
+    title="Apple IOS"
+    roundWhite = true
+[[params.technologies.cards]]
+    link = "#"
+    imageLink="/images/technologies/js.png"
+    imageAlt="Javascript"
+    title="Javascript"
+[[params.technologies.cards]]
+    link = "#"
+    imageLink="/images/technologies/mysql.jpg"
+    imageAlt="MySql"
+    title="MySql"
+    roundWhite = true
+[[params.technologies.cards]]
+    link = "#"
+    imageLink="/images/technologies/postgresql.png"
+    imageAlt="PostgreSql"
+    title="PostgreSql"
+[[params.technologies.cards]]
+    link = "#"
+    imageLink="/images/technologies/python.jpg"
+    imageAlt="Python"
+    title="Python"
+    roundWhite = true
+[[params.technologies.cards]]
+    link = "#"
+    imageLink="/images/technologies/redis.png"
+    imageAlt="Redis"
+    title="Redis"
+    roundWhite = true
+[[params.technologies.cards]]
+    link = "#"
+    imageLink="/images/technologies/rust.png"
+    imageAlt="Rust"
+    title="Rust"
+[[params.technologies.cards]]
+    link = "#"
+    imageLink="/images/technologies/terraform.png"
+    imageAlt="Terraform"
+    title="Terraform"
+    roundWhite = true
+
+
+
+[params.testimonial]
+[[params.testimonial.quotes]]
+    img = "/images/testimonials/pexels-photo-809433.jpeg"
+    name = "Moustafa M."
+    title ="Head of Finance"
+    text="Kalvad is one of the best tech stars company that I have ever worked with. I have witnessed the digital transformation in our company in a real-time, enhancing the technologies used, encouraging and coaching our team members, and keeping a hands on the current projects as well as the upcoming projects. As a finance guy, what I like most in Kalvad is that their deep understanding of the business needs and terminology which eventually helped the company in improving both the top and bottom lines."
+[[params.testimonial.quotes]]
+    img = "/images/testimonials/adult-beanie-black-background-1529350.jpg"
+    name = "Georges P."
+    title ="CEO"
+    text="Kalvad is a well-versed team capable of handling variety of assignments, completes deadlines as promised, acts as a calming force when our team is under pressure, encourages our engineers to be inventive and gives structure, feedback and direction to us."
+[[params.testimonial.quotes]]
+    img = "/images/testimonials/pexels-photo-894156.jpeg"
+    name = "Marwan S."
+    title ="Managing Director"
+    text="I could speak at length about Kalvad's skill and passion when it comes to technology, but there are many who are better suited to speak about their technical prowess. To me, what sets them apart is their strategic business approach to technology and management skills. Within the first 2 week of working together they identified multiple ways for us to optimize our technology leading to considerable savings and better output. Never one to shy away from a challenge, and ignoring all nay sayers, they took on established technology provider, that we work with, head on, and built our own systems in record time that out performed the big players."
+
+[params.contactForm]
+formspree = "https://formspree.io/mqqlejym"
+
+[params.video]
+images = [
+    "/images/video/image1.jpg",
+    "/images/video/image2.jpg",
+    "/images/video/image3.jpg",
+    ]
+
+
+[params.footer]
+logo = "/images/logo/logo-white.png"
+copyright= "&copy; Copyright 2019 kalvad DMCC"
+email = "contact@kalvad.com  "
+phone = "+971 58 180 5998"
+address = "Jumeirah Lake Towers <span> <br>Dubai </span>"
+socialFacebook = "https://www.facebook.com/kalvad-2001479360065486/"
+socialTwitter  = "https://twitter.com/kalvadTech"
+socialLinkedin = "https://www.linkedin.com/company/kalvad-me/"

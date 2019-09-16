@@ -1,0 +1,26 @@
+<!-- light-bg-2 start -->
+      <div class="light-bg-2 top-bottom-padding-120" data-midnight="black">
+	<!-- testimonials-slider start -->
+	<div class="testimonials-slider container small">
+	  <!-- swiper-wrapper start -->
+	  <div class="swiper-wrapper">
+
+
+		{{ range $quote := .Site.Params.testimonial.quotes }}
+	    <!-- slide start -->
+	    <div class="swiper-slide text-center">
+			<h2>{{$quote.name}}</h2><br>
+			<h5 class="text-color-2" >{{$quote.title}}</h5>
+	      <div class="testimonials-content">
+		<p class="text-color-4 p-style-bold">{{$quote.text}}</p>
+	      </div>
+		</div><!-- slide end -->
+		{{ end }}
+
+
+	  </div><!-- swiper-wrapper end -->
+	  
+	  <!-- swiper-pagination -->
+	  <div class="swiper-pagination"></div>
+	</div><!-- testimonials-slider end -->
+      </div><!-- light-bg-2 end -->

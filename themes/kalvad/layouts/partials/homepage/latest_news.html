@@ -1,0 +1,39 @@
+{{ $dataJ := getJSON "https://blog.10ten.com/ghost/api/v2/content/posts/?key=452750edc747b0b57f06daab5b" }}
+
+<!-- latest-news start -->
+<section class="latest-news top-padding-120 bottom-padding-30 light-bg-1" data-midnight="black">
+    <!-- container start -->
+    <div class="container">
+        <!-- text-center start -->
+        <div data-animation-container class="text-center">
+            <h2 data-animation-child class="large-title text-height-10 text-color-1 overlay-anim-box2" data-animation="overlay-anim2">From the blog</h2><br>
+            <p data-animation-child class="fade-anim-box tr-delay02 text-color-1 xsmall-title-oswald top-margin-5" data-animation="fade-anim">Check our latest news</p>
+        </div><!-- text-center end -->
+
+        <!-- flex-container start -->
+        <div class="flex-container response-999 top-padding-60">
+            <!-- column start -->
+            {{ range first 3 $dataJ.posts }}
+            <div class="four-columns bottom-padding-90">
+                <article class="content-right-margin-20 light-bg-2" data-animation-container>
+                    <a href="{{ .url }}" class="pointer-large animsition-link d-block">
+                        <div class="overlay-anim-box2 overlay-dark-bg-2" data-animation="overlay-anim2">
+                            <img class="hover-img" src="{{ .feature_image }}" alt="{{ .title }}" title="{{ .title }}">
+                        </div>
+                        <h3 class="title-style text-color-1 top-margin-30 blog-title content-padding-l-r-20">
+                            <span data-animation-child class="overlay-anim-box2 hover-content overlay-dark-bg-2 tr-delay01" data-animation="overlay-anim2">{{.title}}</span><br>
+                        </h3>
+                    </a>
+                    <div class="content-padding-bottom-20 content-padding-l-r-20">
+                        <p>{{ .excerpt }}</p>
+                        <div data-animation-child class="blog-autor-date top-margin-30 fade-anim-box tr-delay06 text-color-1" data-animation="fade-anim">
+                            <a class="xsmall-title-oswald pointer-small hover-color" href="{{ .url }}">{{ .primary_author }}</a>
+                            <a class="xsmall-title-oswald pointer-small hover-color" href="{{ .url }}">{{ .published_at }}</a>
+                        </div>
+                    </div>
+                </article>
+            </div><!-- column end -->
+            {{ end }}
+        </div><!-- flex-container end -->
+    </div><!-- container end -->
+</section><!-- latest-news end -->

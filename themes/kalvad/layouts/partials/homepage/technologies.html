@@ -1,0 +1,41 @@
+<!-- section start -->
+      <section class="dark-bg-2">
+	<!-- container start -->
+	<div class="container small top-bottom-padding-120">
+	  <!-- medium-title start -->
+	  <h2 data-animation-container class="medium-title text-center">
+			{{ range $titleIndex, $technoTitle := .Site.Params.technologies.title }}
+	    		<span data-animation-child class="title-fill tr-delay0{{$titleIndex}}" data-animation="title-fill-anim" data-text="{{$technoTitle}}">{{$technoTitle}}</span>
+			{{ end }}
+	  </h2><!-- medium-title end -->
+	  
+	  <!-- client-list start -->
+	  <ul class="client-list d-flex-wrap top-padding-60">
+
+		{{ range $cardIndex, $technoCard := .Site.Params.technologies.cards }}
+	    <li>
+	      <a href="{{$technoCard.link}}" class="pointer-large d-block">
+		<div class="brand-box">
+		  <img src="{{$technoCard.imageLink}}" alt="{{$technoCard.imageAlt}}" title="{{$technoCard.imageAlt}}"
+			{{ if $technoCard.roundWhite }}
+			style="
+			background: white;
+			border-radius: 100%;
+			"
+		  {{ end }}
+		  >
+		</div>
+	      </a>
+		</li>
+		{{end}}
+
+	    <li class="empty-spot-box">
+	      <a data-animation-container href="#" class="pointer-large p-style-bold-up empty-spot d-block">
+		<span data-animation-child class="title-fill" data-animation="title-fill-anim" data-text="More">More</span>
+		<span data-animation-child class="title-fill tr-delay01" data-animation="title-fill-anim" data-text="Coming">Coming</span>
+		<span data-animation-child class="title-fill tr-delay02" data-animation="title-fill-anim" data-text="Soon">Soon</span>
+	      </a>
+	    </li>
+	  </ul><!-- client-list end -->
+	</div><!-- container end -->
+      </section><!-- section end -->

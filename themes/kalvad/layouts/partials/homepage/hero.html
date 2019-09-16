@@ -1,0 +1,33 @@
+      <!-- page-head start -->
+      <section id="up" class="page-head flex-min-height-box dark-bg-2 typewriter-home">
+	<!-- page-head-bg -->
+	<div class="page-head-bg" style="background-image: url(/images/backgrounds/fullscreen/coding.jpg);"></div>
+
+	<!-- flex-min-height-inner start -->
+	<div class="flex-min-height-inner">
+	  <!-- container start -->
+	  <div class="container top-bottom-padding-120">
+	    <h1 class="overlay-loading2 medium-title red-color">{{.Site.Params.hero.title}}<span class="gaoel-title">{{.Site.Params.hero.fancyName}}</span></h1>
+	    <h3 class="large-title-bold text-color-4">
+	      <span class="overlay-loading2 overlay-light-bg-1 tr-delay01">{{.Site.Params.hero.overlay1}}</span><br>
+	      <span class="overlay-loading2 overlay-light-bg-1 tr-delay02">{{.Site.Params.hero.overlay2}}</span><br>
+	      <span class="overlay-loading2 overlay-light-bg-1 tr-delay03" id="typewriter"></span>
+	    </h3>
+	    <p class="d-flex-wrap top-margin-20 text-color-4">
+			{{ range $elem_index, $elem_val := .Site.Params.hero.changingText }}
+				<span class="small-title-oswald text-height-20 fade-loading tr-delay0{{add 3 $elem_index}} top-margin-10">{{$elem_val}}</span>
+			{{ end }}
+	    </p>
+	  </div><!-- container end -->
+	</div><!-- flex-min-height-inner end -->
+
+	<!-- scroll-btn start -->
+	<a href="#down" class="scroll-btn pointer-large">
+	  <div class="scroll-arrow-box">
+	    <span class="scroll-arrow"></span>
+	  </div>
+	  <div class="scroll-btn-flip-box">
+	    <span class="scroll-btn-flip" data-text="Scroll">{{.Site.Params.hero.scroll}}</span>
+	  </div>
+	</a><!-- scroll-btn end -->
+      </section><!-- page-head end -->
