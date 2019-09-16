@@ -1508,7 +1508,7 @@ body,
 	position: fixed;
 	top: 0;
 	z-index: 99;
-	background: #111517;
+	background: #000000;
     -webkit-transition: 0.5s cubic-bezier(.86, 0, .07, 1); 
     	-o-transition: 0.5s cubic-bezier(.86, 0, .07, 1); 
 			transition: 0.5s cubic-bezier(.86, 0, .07, 1);
@@ -1551,7 +1551,7 @@ body,
 	content: '';
 	width: 100%;
 	height: 100%;
-	border: 1px solid #111517;
+	border: 1px solid #000000;
 	border-left-color: white;
 	-webkit-animation: 0.6s loading-anim cubic-bezier(.77, 0, .175, 1) infinite both;
   	    animation: 0.6s loading-anim cubic-bezier(.77, 0, .175, 1) infinite both;
@@ -2022,7 +2022,7 @@ body.out .nav-container.active .menu-close:before {
 	height: 100%;
 	margin-left: calc(50% - 2px);
 	position: relative;
-	border-left: 2px solid #111517;
+	border-left: 2px solid #000000;
 }
 
 .nav-box {
@@ -2224,7 +2224,7 @@ body.out .nav-container.active li li:nth-child(6) a {
 	width: 0%;
 	white-space: nowrap;
 	overflow: hidden;
-	background: #111517;
+	background: #000000;
 }
 
 .nav-btn.active:before {
@@ -2271,7 +2271,7 @@ a:hover .nav-btn:before {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: #111517;
+	background: #000000;
 	-webkit-transition: .35s cubic-bezier(.86, 0, .07, 1);
 		-o-transition: .35s cubic-bezier(.86, 0, .07, 1);
 			transition: .35s cubic-bezier(.86, 0, .07, 1);
@@ -2708,7 +2708,7 @@ body.out .nav-container.active .dropdown-close.active {
 		margin-left: 0;
 		margin-bottom: calc(50% - 2px);
 		border-left: none;
-		border-bottom: 2px solid #111517;
+		border-bottom: 2px solid #000000;
 	}
 	
 	.nav-bg {
@@ -2791,12 +2791,12 @@ body.out .nav-container.active .dropdown-close.active {
 --------------------------------------------------------------*/
 body,
 .animsition-overlay {
-	background: #f5f5f5; 
+	background: #ffffff; 
 }
 
 /* 6.1. Bg colors */
 .light-bg-1 {
-	background: #f5f5f5; 
+	background: #ffffff; 
 }
 
 .light-bg-2 {
@@ -2804,7 +2804,7 @@ body,
 }
 
 .dark-bg-1 {
-	background: #111517;
+	background: #000000;
 }
 
 .dark-bg-2 {
@@ -3339,7 +3339,7 @@ body,
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #111517;
+	background: #000000;
 	-webkit-transform: translateY(0);
 	    -ms-transform: translateY(0);
 	        transform: translateY(0);
@@ -4209,7 +4209,7 @@ body.anim .scroll-arrow-box {
 }
 
 .overlay-dark-bg-1:before {
-	background: #111517 !important;
+	background: #000000 !important;
 }
 
 .overlay-dark-bg-2:before {
@@ -4377,7 +4377,7 @@ body.anim .overlay-loading2:before {
 }
 
 .dark-bg-1 .overlay-loading2:before {
-	background: #111517;
+	background: #000000;
 }
 
 .dark-bg-2 .overlay-loading2:before {
@@ -4460,7 +4460,7 @@ body.anim .load-title-fill:after {
 }
 
 .dark-bg-1 .load-title-fill:after {
-	background: #111517;
+	background: #000000;
 }
 
 .dark-bg-2 .load-title-fill:after {
@@ -4689,7 +4689,7 @@ body.anim .load-title-fill:after {
 }
 
 .dark-bg-1 .overlay-anim-box2:before {
-	background: #111517;
+	background: #000000;
 }
 
 .dark-bg-2 .overlay-anim-box2:before {
@@ -4778,7 +4778,7 @@ body.anim .load-title-fill:after {
 }
 
 .dark-bg-1 .title-fill:after {
-	background: #111517;
+	background: #000000;
 }
 
 .dark-bg-2 .title-fill:after {
@@ -4947,7 +4947,7 @@ body.anim .load-title-fill:after {
 }
 
 .dark-bg-1 .hover-fill-effect:before {
-	background: #111517;
+	background: #000000;
 }
 
 .dark-bg-2 .hover-fill-effect:before {
@@ -5036,7 +5036,7 @@ body.anim .load-title-fill:after {
 	content: '';
 	width: 100%;
 	height: 10px;
-	background: #111517;
+	background: #000000;
 	position: absolute;
 	top: -8px;
 	left: 0;
@@ -5519,7 +5519,7 @@ button.mfp-close {
   	width: 100%;
   	overflow: hidden;
   	position: relative;
-  	background: #111517;
+  	background: #000000;
 }
 
 .home-slider .swiper-wrapper {
@@ -5713,7 +5713,7 @@ button.mfp-close {
 }
 
 .dark-bg-1 .slider-title-fill:after {
-	background: #111517;
+	background: #000000;
 }
 
 .dark-bg-2 .slider-title-fill:after {
@@ -8414,7 +8414,7 @@ body.out .swiper-slide-active .portfolio-slider-fade {
 .work_item {
 	margin: 20px 10px 0 10px;
 	position: relative;
-	background: #111517;
+	background: #000000;
 }
 
 .works-content {
