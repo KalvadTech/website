@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="49px" viewBox="0 0 42 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>hexagon-riakkv</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hexagon---Swag,-goodies" transform="translate(-698.000000, -386.000000)">
+            <g id="hexagon-riakkv" transform="translate(698.000000, 386.000000)">
+                <polygon id="Polygon" fill="#54575B" points="21 0 42 12.25 42 36.75 21 49 2.48689958e-14 36.75 1.11022302e-14 12.25"></polygon>
+                <g id="Group-32" transform="translate(7.856383, 11.095745)" fill="#FFFFFF">
+                    <circle id="Oval-7" cx="14.2420213" cy="2.03457447" r="2.03457447"></circle>
+                    <circle id="Oval-7" cx="22.1409574" cy="5.625" r="2.03457447"></circle>
+                    <circle id="Oval-7" cx="25.4920213" cy="13.5239362" r="2.03457447"></circle>
+                    <circle id="Oval-7" cx="22.1409574" cy="21.4228723" r="2.03457447"></circle>
+                    <circle id="Oval-7" cx="14.2420213" cy="24.7739362" r="2.03457447"></circle>
+                    <circle id="Oval-7" cx="5.8643617" cy="21.4228723" r="2.03457447"></circle>
+                    <circle id="Oval-7" cx="2.51329787" cy="13.5239362" r="2.03457447"></circle>
+                    <circle id="Oval-7" cx="5.8643617" cy="5.625" r="2.03457447"></circle>
+                    <path d="M5.69085566,6.1943798 C14.4889712,7.92563184 21.0057844,10.6389861 25.2434023,14.3153524 L26.0276872,13.4113348 C21.6102603,9.57897431 14.9076379,6.78825613 5.92192692,5.02008994 L5.69085566,6.1943798 Z" id="Path-15" fill-rule="nonzero"></path>
+                    <path d="M3.62031973,8.83777144 C12.1868058,9.29388351 18.6461152,11.9832954 23.0350738,16.8950443 L23.9275052,16.0976003 C19.3093338,10.929336 12.5492076,8.11467543 3.68395221,7.64265575 L3.62031973,8.83777144 Z" id="Path-15" fill-rule="nonzero" transform="translate(13.773912, 12.268850) rotate(20.000000) translate(-13.773912, -12.268850) "></path>
+                    <path d="M0.508617607,10.9920268 C9.07510364,11.4481388 15.5344131,14.1375507 19.9233717,19.0492996 L20.815803,18.2518557 C16.1976317,13.0835913 9.43750548,10.2689307 0.57225008,9.79691107 L0.508617607,10.9920268 Z" id="Path-15" fill-rule="nonzero" transform="translate(10.662210, 14.423105) rotate(45.000000) translate(-10.662210, -14.423105) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

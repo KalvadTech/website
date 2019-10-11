@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="49px" viewBox="0 0 42 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>hexagon-scala</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hexagon---Swag,-goodies" transform="translate(-696.000000, -99.000000)">
+            <g id="hexagon-scala" transform="translate(696.000000, 99.000000)">
+                <polygon id="Polygon" fill="#CD3346" points="21 0 42 12.25 42 36.75 21 49 -3.24185123e-14 36.75 -4.61852778e-14 12.25"></polygon>
+                <g id="Group-6" transform="translate(13.000000, 10.000000)" fill-rule="nonzero" fill="#FFFFFF">
+                    <path d="M17.3329944,0.0471011004 L17.3329944,6.66045378 C17.3329944,6.66045378 17.3329944,9.4160174 0.498103953,11.0693556 L0.498103953,4.42975943 C0.471339422,4.42975943 17.3329944,2.80266472 17.3329944,0.0471011004" id="Shape"></path>
+                    <path d="M0.471339422,13.247563 C0.471339422,13.247563 17.3062299,11.5942248 17.3062299,8.83866121 L17.3062299,15.4520139 C17.3062299,15.4520139 17.3062299,18.2075775 0.471339422,19.8609156 L0.471339422,13.247563 L0.471339422,13.247563 Z" id="Shape"></path>
+                    <path d="M0.471339422,28.6524758 L0.471339422,22.0391232 C0.471339422,22.0391232 17.3062299,20.3857849 17.3062299,17.6302214 L17.3062299,24.243574 C17.3329944,24.2698174 17.3329944,26.9991377 0.471339422,28.6524758" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

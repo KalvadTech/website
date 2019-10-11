@@ -8747,3 +8747,27 @@ body.out .swiper-slide-active .portfolio-slider-fade {
 	}
 		
 }
+
+.techno-li-img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.runtimes {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.runtimes-list {
+    margin-bottom: -7px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.runtimes-list li {
+    display: inline-block;
+    line-height: 25px;
+}

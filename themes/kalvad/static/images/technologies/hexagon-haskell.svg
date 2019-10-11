@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="49px" viewBox="0 0 42 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>hexagon-haskell</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hexagon---Swag,-goodies" transform="translate(-552.000000, -30.000000)">
+            <g id="hexagon-haskell" transform="translate(552.000000, 30.000000)">
+                <polygon id="Polygon" fill="#643285" points="21 0 42 12.25 42 36.75 21 49 1.82076576e-14 36.75 4.88498131e-15 12.25"></polygon>
+                <g id="Group-4" transform="translate(7.000000, 14.000000)" fill-rule="nonzero" fill="#FFFFFF">
+                    <polygon id="Shape" points="0.925733462 19.8417209 7.31819045 10.3705331 0.925733462 0.899345336 5.72002111 0.899345336 12.1124781 10.3705331 5.72002111 19.8417209"></polygon>
+                    <polygon id="Shape" points="7.31819045 19.8417209 13.7106475 10.3705331 7.31819045 0.899345336 12.1124781 0.899345336 24.8971718 19.8417209 20.1028842 19.8417209 16.1077913 13.9223373 12.1124781 19.8417209"></polygon>
+                    <polygon id="Shape" points="22.7664998 14.3169338 20.6358276 11.1599438 28.0935105 11.1597263 28.0935105 14.3169338"></polygon>
+                    <polygon id="Shape" points="19.5703814 9.58133998 17.4394889 6.42434991 28.0935105 6.4241324 28.0935105 9.58133998"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

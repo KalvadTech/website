@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="49px" viewBox="0 0 42 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>hexagon-gitlab</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hexagon---Swag,-goodies" transform="translate(-403.000000, -386.000000)">
+            <g id="hexagon-gitlab" transform="translate(403.000000, 386.000000)">
+                <polygon id="Polygon" fill="#FC6D26" points="21 0 42 12.25 42 36.75 21 49 2.22044605e-14 36.75 8.43769499e-15 12.25"></polygon>
+                <g id="git-fox" transform="translate(21.000000, 24.500000) rotate(180.000000) translate(-21.000000, -24.500000) translate(6.000000, 11.000000)" fill-rule="nonzero" fill="#FFFFFF">
+                    <polygon id="path50" points="9.75414815 16.0900002 19.3998605 16.0900002 14.5770043 2.0250468e-13"></polygon>
+                    <polygon id="path58" points="14.4119611 0 2.94195989 16.0900002 9.02920017 16.0900002"></polygon>
+                    <path d="M14.1540087,0 L0.296637322,10.0926341 C0.044434657,10.3072296 -0.0610121008,10.6873996 0.0352269414,11.0344356 L1.94195989,16.0900002 L14.1540087,0 Z" id="path66"></path>
+                    <polygon id="path58" transform="translate(20.501973, 8.045000) scale(-1, 1) translate(-20.501973, -8.045000) " points="26.2119794 0 14.791966 16.0900002 20.7249191 16.0900002"></polygon>
+                    <path d="M29.1540087,0 L15.2966373,10.0926341 C15.0444347,10.3072296 14.9389879,10.6873996 15.0352269,11.0344356 L16.9420292,16.0900002 L29.1540087,0 Z" id="path66" transform="translate(22.077004, 8.045000) scale(-1, 1) translate(-22.077004, -8.045000) "></path>
+                    <path d="M5.31169831,26.2522244 C5.36106355,26.4039276 5.57703784,26.4039276 5.62643955,26.2521844 L8.68820855,16.846587 L2.24999103,16.846587 L5.31169831,26.2522244 Z" id="path74"></path>
+                    <path d="M20.4515747,16.846587 L23.5133399,26.2521727 C23.5627454,26.4039276 23.7787197,26.4039276 23.8280971,26.252187 L26.8897922,16.846587 L20.4515747,16.846587 Z" id="path86"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
